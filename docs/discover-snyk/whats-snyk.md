@@ -1,13 +1,13 @@
 # What's Snyk?
 
-Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations. The Snyk platform uses a risk-based approach, focusing security efforts on issues that matter, and eliminating the noise of vulnerabilities that have no meaningful impact.
+Snyk is a platform that allows you to scan, prioritize, and fix security vulnerabilities in your code, open-source dependencies, container images, and infrastructure as code configurations. The Snyk platform uses a risk-based approach, focusing security efforts on issues that matter, and eliminating the noise of vulnerabilities that have no meaningful impact. TEST
 
 To manage and govern the security program, Snyk gives security teams immediate visibility into coverage and business context across all application assets, smart policies to automate and scale in large environments, and analytics and reporting to measure the performance of your security program.
 
 * Snyk Open Source and Snyk Code: see [Supported languages, package managers, and frameworks](../supported-languages/supported-languages-package-managers-and-frameworks.md).
 * Snyk Container: see [Supported operating system distributions](../scan-with-snyk/snyk-container/how-snyk-container-works/operating-system-distributions-supported-by-snyk-container.md).
 * Snyk Infrastructure as Code: see [Supported IaC and cloud providers](../scan-with-snyk/snyk-iac/supported-iac-languages-cloud-providers-and-cloud-resources/).
-* Snyk Essentials: see [Snyk Essentials](../scan-with-snyk/snyk-essentials.md)&#x20;
+* Snyk Essentials: see [Snyk Essentials](../scan-with-snyk/snyk-essentials.md)
 * Snyk AppRisk: see [Snyk AppRisk](../scan-with-snyk/snyk-apprisk.md).
 * Snyk API & Web: see [Snyk API & Web](https://snyk.io/product/dast-api-web/).
 

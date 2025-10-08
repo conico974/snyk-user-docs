@@ -1,7 +1,7 @@
 ---
 description: >-
   Scan, prioritize, and fix vulnerabilities in your code, open-source
-  dependencies, container images, and cloud configurations. TEST
+  dependencies, container images, and cloud configurations.
 icon: house
 cover: .gitbook/assets/Header.png
 coverY: 0
