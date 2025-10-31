@@ -21,7 +21,7 @@ An integrated SCM token can be generated for the following SCM integrations:
 
 ### GitHub and GitHub Enterprise SCM token
 
-**Format**: `GITHUB_TOKEN=` - a GitHub personal access token. \
+**Format**: `GITHUB_TOKEN=` - a GitHub personal access token.\
 **Scopes:** `repo, read:org` and `admin:repo_hook.`
 
 ### GitLab SCM token
@@ -33,8 +33,8 @@ GitLab account with `Maintainer` permission.
 
 ### Azure Repositories (TFS) SCM token
 
-**Format**: `AZURE_REPOS_TOKEN=` - an Azure Repos personal access token. \
-**Scopes**: `Custom defined`,  `Code:`  `Read & write`_._
+**Format**: `AZURE_REPOS_TOKEN=` - an Azure Repos personal access token.\
+**Scopes**: `Custom defined`, `Code:` `Read & write`_._
 
 ### Bitbucket Server/Data Center SCM token
 
@@ -97,7 +97,7 @@ On installation of the app you will be assigned an `InstallationID`. These are t
 
 ### Create the Universal Broker connection for your GitHub Server App
 
-Before the GitHub Server App can be used with the Universal Broker, you must create a connection of the `github-server-app` type using the `snyk-broker-config` tool. For more details, see the  [Universal Broker](../../enterprise-setup/snyk-broker/universal-broker/) documentation. After the connection is created, it can be integrated with one or more Organization(s) of your choice.
+Before the GitHub Server App can be used with the Universal Broker, you must create a connection of the `github-server-app` type using the `snyk-broker-config` tool. For more details, see the [Universal Broker](../../implementation-and-setup/enterprise-setup/snyk-broker/universal-broker/) documentation. After the connection is created, it can be integrated with one or more Organization(s) of your choice.
 
 To set up the integration you will need the following:
 
@@ -112,8 +112,8 @@ When you have these prerequisites, use the following commands
 * `snyk-broker-config workflows connections create,`choosing the `github-server-app` option and providing the information you are prompted for in the workflow.
 * `snyk-broker-config workflows connections integrate`to integrate the newly created connection to the Organization of your choice, pasting the org ID when you are prompted.
 
-Visit the integrations page in Snyk to see that the integration has been configured.&#x20;
+Visit the integrations page in Snyk to see that the integration has been configured.
 
 <figure><img src="../../.gitbook/assets/image (306).png" alt=""><figcaption><p>A successful GitHub Server App integration</p></figcaption></figure>
 
-See the [Universal Broker](../../enterprise-setup/snyk-broker/universal-broker/) documentation for more details.
+See the [Universal Broker](../../implementation-and-setup/enterprise-setup/snyk-broker/universal-broker/) documentation for more details.
