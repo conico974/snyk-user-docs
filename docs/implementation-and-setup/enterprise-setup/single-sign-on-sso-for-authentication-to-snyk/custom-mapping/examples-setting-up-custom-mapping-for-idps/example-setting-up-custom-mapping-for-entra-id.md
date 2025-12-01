@@ -18,10 +18,10 @@ The **steps** in **configuring App role**s follow.
 
 1.  In your App registration menu, select the name of your Enterprise Application.
 
-    <figure><img src="../../../../../.gitbook/assets/image (113).png" alt="App registration, select name of Enterprise Application"><figcaption><p>App registration, select name of Enterprise Application</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (69) (1).png" alt="App registration, select name of Enterprise Application"><figcaption><p>App registration, select name of Enterprise Application</p></figcaption></figure>
 2.  Select **App roles**, then **Create app role**.
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (2) (1).png" alt="Select App roles, Create app role"><figcaption><p>Select App roles, Create app role</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="Select App roles, Create app role"><figcaption><p>Select App roles, Create app role</p></figcaption></figure>
 3.  Create an app role with details as needed.\
     Select the **Allowed member types**: **Users/Groups**, **Applications**, or **Both**.\
     Enter the **Value** and **Description** for the selected type.\
@@ -54,7 +54,7 @@ The **steps** in **configuring App role**s follow.
     **Source attribute**: user.assignedroles
 
 {% hint style="warning" %}
-Ensure you add the claim correctly. If you do not add it or you do it incorrectly, for example, by adding a typo, it can lead to a full mapping failure, which can lock users out of their accounts.&#x20;
+Ensure you add the claim correctly. If you do not add it or you do it incorrectly, for example, by adding a typo, it can lead to a full mapping failure, which can lock users out of their accounts.
 {% endhint %}
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2023-03-10 at 2.55.05 PM.png" alt="Custom claim"><figcaption><p>Custom claim</p></figcaption></figure>

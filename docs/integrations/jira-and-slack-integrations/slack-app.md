@@ -64,10 +64,10 @@ If you are a Slack Admin, you can manually add the Snyk for Slack app to a priva
 
 ## Issue notifications
 
-After the Slack app has been configured, new issue notifications are forwarded to the selected Slack channel according to the desired severity level threshold. \
-New issue notifications may take up to an hour to start propagating to your Slack workspace after it is configured.&#x20;
+After the Slack app has been configured, new issue notifications are forwarded to the selected Slack channel according to the desired severity level threshold.\
+New issue notifications may take up to an hour to start propagating to your Slack workspace after it is configured.
 
-<figure><img src="../../.gitbook/assets/image (165).png" alt="Example of a new critical vulnerability notification received in Slack"><figcaption><p>Example of a new critical vulnerability notification received in Slack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (164) (1).png" alt="Example of a new critical vulnerability notification received in Slack"><figcaption><p>Example of a new critical vulnerability notification received in Slack</p></figcaption></figure>
 
 ## Manage Project-level notification overrides
 
@@ -81,10 +81,10 @@ Customization options include:
 
 ### Add notification customizations
 
-1. Select `Add customization` to open the creation dialog from the Slack App integration page.&#x20;
-2. Paste your previously copied **Project ID** value.&#x20;
+1. Select `Add customization` to open the creation dialog from the Slack App integration page.
+2. Paste your previously copied **Project ID** value.
 3. Select the desired issue **Severity level**.
-4. Enter the **Slack channel ID** to target.&#x20;
+4. Enter the **Slack channel ID** to target.
 5. Click **Save customization**.
 
 ### Find your Project ID
@@ -131,7 +131,7 @@ GET [/orgs/{org\_id}/projects](https://apidocs.snyk.io/?version=2023-08-04#get-/
 
 After retrieving the `org_id`, `bot_id`, and `project_id` values, you can use the following create, read, update, and delete API operations:
 
-#### [List all  Slack notification customizations for Projects](../../snyk-api/reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects)
+#### [List all Slack notification customizations for Projects](../../snyk-api/reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects)
 
 `GET /orgs/{org_id}/slack_app/{bot_id}/projects`
 

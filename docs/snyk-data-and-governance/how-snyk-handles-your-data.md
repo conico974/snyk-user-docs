@@ -70,7 +70,7 @@ Your account is subject to contract terms that might restrict your ability to en
 
 <figure><img src="../.gitbook/assets/SnykCode.svg" alt="Snyk Code logo"><figcaption><p>Snyk Code</p></figcaption></figure>
 
-* &#x20;Snyk stores repository-specific information, for example, the name of the Git repository and file names. Snyk accesses your repository code for a one-time analysis and caches the source code according to the Cloud provider's storage minimum policy. After this period, only the location (file path, line, and column) of the issues found, the issue ID, and explanations are maintained. Your code is removed and is not stored in the Snyk network or logs.
+* Snyk stores repository-specific information, for example, the name of the Git repository and file names. Snyk accesses your repository code for a one-time analysis and caches the source code according to the Cloud provider's storage minimum policy. After this period, only the location (file path, line, and column) of the issues found, the issue ID, and explanations are maintained. Your code is removed and is not stored in the Snyk network or logs.
 * Results are stored in a database and used for analytic and monitoring purposes by Snyk.
 * Snyk Code does not use any customer code (1) for engine training purposes or (2) to extract examples to show possible fixes.
 * The AI model for Snyk Code Fix Suggestions is trained on public repositories with permissive licenses. Any data from repositories with changing licenses is immediately removed. Static analysis, automated assessment, and partial human labeling are used during the data collection.
@@ -80,7 +80,7 @@ Your account is subject to contract terms that might restrict your ability to en
 
 ### **Snyk Container**
 
-<figure><img src="../.gitbook/assets/image (201).png" alt="Snyk Container logo"><figcaption><p>Snyk Container</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt="Snyk Container logo"><figcaption><p>Snyk Container</p></figcaption></figure>
 
 * Snyk accesses and stores package versions, executable hashes and versions, operating system, container image metadata (for example, rootfs hashes, history), and image ID.
 * Snyk accesses and stores information pertaining to the parent image: name, version, and tag.
@@ -156,7 +156,7 @@ Snyk accesses and stores the following information:
 * Requests and responses data: A sample of crawler requests and responses is stored, including a subset of scanner requests and responses indicating a vulnerability or potential vulnerability.
 * Integration-specific information from connected issue tracking integrations, including Project names, issue types, severity levels, and comments in issues linked to Snyk API & Web findings.
 * Authentication credentials for third-party integrations, for example, API keys and OAuth2 tokens for integrations such as Azure, Jira, and Cloudflare.
-* Discovery feature data, including screenshots of services scanned, portions of HTTP responses from those services, and a list of open ports for each domain/subdomain identified during scanning.&#x20;
+* Discovery feature data, including screenshots of services scanned, portions of HTTP responses from those services, and a list of open ports for each domain/subdomain identified during scanning.
 
 {% hint style="info" %}
 When scans are performed against production systems, responses may contain customer data. While Snyk strongly recommends that you use Snyk API & Web in staging and testing sites, and not against production sites, Snyk does implement security controls designed to protect customer data in accordance with the SOC 2 standard. For more details, see [Snyk certifications](how-snyk-handles-your-data.md#snyk-certifications).

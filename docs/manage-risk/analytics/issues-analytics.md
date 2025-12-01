@@ -3,7 +3,7 @@
 {% hint style="info" %}
 **Release status**
 
-Issues Analytics is only available for customers under Enterprise plans.&#x20;
+Issues Analytics is only available for customers under Enterprise plans.
 {% endhint %}
 
 Issues Analytics takes an opinionated approach, focusing teams on a relatively recent view of the most important metrics available for critical and high-severity issues in a 90-day lookback period. These static filters are displayed at the top of the page.
@@ -19,7 +19,7 @@ You can select the Groups and Organizations that will be included in the analysi
 
 Metrics are organized within the pillars of the AppSec performance framework. It is critical to understand both the current state of metrics and the trend to identify anomalies or patterns that contradict expectations.
 
-Issues Analytics is designed to make a top-level metric and its associated trend for each pillar visible at all times to support a quick understanding of the state of the program. You can navigate to a more granular view of each tab as needed. Different pillars and metrics on these views may be more or less relevant at different times to different companies, business units, products, teams, and any other participants.&#x20;
+Issues Analytics is designed to make a top-level metric and its associated trend for each pillar visible at all times to support a quick understanding of the state of the program. You can navigate to a more granular view of each tab as needed. Different pillars and metrics on these views may be more or less relevant at different times to different companies, business units, products, teams, and any other participants.
 
 Use the tooltips throughout the pages of the Issues Analytics application for explanations of metrics and terms.
 
@@ -93,7 +93,7 @@ There may be a repository that has not been modified in months or years, but bec
 
 Issues are categorized as Non-preventable if the issue is detected within seven days of becoming known to Snyk. This could include a new vulnerability in a dependency already in use or a vulnerability disclosed in the same time frame as the dependency was introduced to the Project. While it is possible that introducing an issue could have been prevented within the seven-day period, this definition provides some buffer for scenarios where code takes longer to get through the deployment process or for weekly recurring tests.
 
-<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (212) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Other new issues
 
@@ -103,8 +103,8 @@ All Snyk Code and Snyk IaC issues will be labeled as **Other new**. Open Source 
 
 ### Preventability analysis considerations
 
-Snyk can confidently differentiate whether issues are preventable by measuring their preventability. However, this mechanism includes some assumptions in its calculation.&#x20;
+Snyk can confidently differentiate whether issues are preventable by measuring their preventability. However, this mechanism includes some assumptions in its calculation.
 
-First assumption is that any non-baseline issues detected within seven days of the underlying vulnerability being known to Snyk are non-preventable. In this scenario, a developer ran a test locally or in a pipeline, which detected the issue, and they deployed it right away. The seven day threshold provides reasonable flexibility to account for this scenario.&#x20;
+First assumption is that any non-baseline issues detected within seven days of the underlying vulnerability being known to Snyk are non-preventable. In this scenario, a developer ran a test locally or in a pipeline, which detected the issue, and they deployed it right away. The seven day threshold provides reasonable flexibility to account for this scenario.
 
 The second assumption is that vulnerabilities may be captured within the Snyk Vulnerability Database before the SCA engine can detect them in scans. Snyk attempts to synchronize these changes closely, but in some cases, engine updates are made after the vulnerability is published in the Snyk Vulnerability Database.

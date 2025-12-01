@@ -39,7 +39,7 @@ For Enterprise plan users, this includes:
 * Targets
 * Projects
 
-For a detailed view of how Snyk encompasses all your work items in the Snyk workspace, see [The Snyk hierarchy](groups-and-organizations/#the-snyk-hierarchy).&#x20;
+For a detailed view of how Snyk encompasses all your work items in the Snyk workspace, see [The Snyk hierarchy](groups-and-organizations/#the-snyk-hierarchy).
 
 ## User types
 
@@ -59,7 +59,7 @@ See [Pre-defined roles](user-roles/pre-defined-roles.md) for more details, inclu
 {% hint style="info" %}
 **Feature availability**
 
-Group-level roles are available only for Enterprise plans. For more information, see [plans and pricing](https://snyk.io/plans/).&#x20;
+Group-level roles are available only for Enterprise plans. For more information, see [plans and pricing](https://snyk.io/plans/).
 {% endhint %}
 
 ## Admin tools
@@ -70,7 +70,7 @@ Snyk provides tools to manage Groups, Organizations, and user roles and permissi
 
 You can manage users and permissions in your Groups. For details, see [Manage users and permissions](user-roles/user-role-management.md).
 
-<figure><img src="../.gitbook/assets/image (245) (1).png" alt="Manage members interface"><figcaption><p>Manage members interface</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (135) (1).png" alt="Manage members interface"><figcaption><p>Manage members interface</p></figcaption></figure>
 
 ### Manage Tenant, Groups, and Organizations
 
@@ -80,7 +80,7 @@ Snyk groups and organizations help to maintain collaboration across teams. For d
 
 You can manage email notifications for yourself and your Organization. For details, see [Manage notifications](manage-notifications.md).
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="Manage email notifications interface"><figcaption><p>Manage email notifications interface</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (158) (1).png" alt="Manage email notifications interface"><figcaption><p>Manage email notifications interface</p></figcaption></figure>
 
 ### Manage settings
 

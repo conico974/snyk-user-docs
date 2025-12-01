@@ -1,12 +1,12 @@
 # Application analytics
 
 {% hint style="info" %}
-**Release status**&#x20;
+**Release status**
 
 Application Analytics for Snyk AppRisk is in Early Access and available only with Enterprise plans with Snyk AppRisk. If you want to set it up in your Group, contact your Snyk account team.
 {% endhint %}
 
-The Analytics menu is available at the tenant level, under the Application Analytics tab (available only with Snyk AppRisk). Application Analytics is designed to provide an in-depth analysis of your AppSec program, highlighting areas for improvement, emerging risks, and previously overlooked vulnerabilities to support AppSec managers and engineering teams.&#x20;
+The Analytics menu is available at the tenant level, under the Application Analytics tab (available only with Snyk AppRisk). Application Analytics is designed to provide an in-depth analysis of your AppSec program, highlighting areas for improvement, emerging risks, and previously overlooked vulnerabilities to support AppSec managers and engineering teams.
 
 The dashboard displays essential data such as the status and trends of open issues, control coverage, and repository metadata. It also shows the state of imported assets. It provides a comprehensive and at-a-glance review of information from different viewpoints, such as asset class, application, or team, with a global filter bar to enhance your experience.
 
@@ -25,11 +25,11 @@ Harnessing Application Analytics provides answers to questions such as:
 * Which applications and code owners bear the most risk in terms of accumulated critical and high issues, and how do they compare to others?
 * How many repositories exist without a clear association to an application or a code owner? And are new assets being associated as expected?
 
-<figure><img src="../../.gitbook/assets/image (220) (1).png" alt=""><figcaption><p>Application Analytics Overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (222) (1).png" alt=""><figcaption><p>Application Analytics Overview</p></figcaption></figure>
 
 ## Filters and views <a href="#filters-and-views" id="filters-and-views"></a>
 
-You can customize your data by using the available filters, dimension views, and specific timeframes.&#x20;
+You can customize your data by using the available filters, dimension views, and specific timeframes.
 
 Filters are applied at the tenant level, and after being customized, they have an impact on all the reports and statistics presented on the Application Analytics page.
 
@@ -41,12 +41,12 @@ The filters are located at the top left of your Application Analytics page, and 
 
 The following are the available filters:
 
-| Filter                                                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Groups                                                                                                                                                               | <p>Provides a list of all the available Groups that exist for the selected tenant.<br>You can customize the selection and focus only on specific Groups. The default setting is providing information for all available groups.</p>                                                                                                                                                                                                                                                                                                                    |
-| Issue severity                                                                                                                                                       | Provides a list with all available types of severity for an issue. The default setting provides information about issues with Critical and High severity.                                                                                                                                                                                                                                                                                                                                                                                              |
-| <p>Add filter</p><ul><li>Asset type</li><li>Asset classes</li><li>Assets application</li><li>Assets owner</li><li>Asset risk factors</li><li>Issues source</li></ul> | <p>You can add filters for a more customized data analysis. </p><ul><li>Asset type - filter by the asset type (Container image, Repository)</li><li>Asset classes - filter by the asset class (A, B, C, D)</li><li>Assets application - filter by the application for which you want to see the assets</li><li>Assets owner - filter by the repository owner of the analyzed assets</li><li>Asset risk factors - filter by specific risk factors of the analyzed assets </li><li>Issues source - filter by the source of the analyzed issues</li></ul> |
-| Reset filters                                                                                                                                                        | Resets the filters to the default state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Filter                                                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Groups                                                                                                                                                               | <p>Provides a list of all the available Groups that exist for the selected tenant.<br>You can customize the selection and focus only on specific Groups. The default setting is providing information for all available groups.</p>                                                                                                                                                                                                                                                                                                                  |
+| Issue severity                                                                                                                                                       | Provides a list with all available types of severity for an issue. The default setting provides information about issues with Critical and High severity.                                                                                                                                                                                                                                                                                                                                                                                            |
+| <p>Add filter</p><ul><li>Asset type</li><li>Asset classes</li><li>Assets application</li><li>Assets owner</li><li>Asset risk factors</li><li>Issues source</li></ul> | <p>You can add filters for a more customized data analysis.</p><ul><li>Asset type - filter by the asset type (Container image, Repository)</li><li>Asset classes - filter by the asset class (A, B, C, D)</li><li>Assets application - filter by the application for which you want to see the assets</li><li>Assets owner - filter by the repository owner of the analyzed assets</li><li>Asset risk factors - filter by specific risk factors of the analyzed assets</li><li>Issues source - filter by the source of the analyzed issues</li></ul> |
+| Reset filters                                                                                                                                                        | Resets the filters to the default state                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ### Views
 
@@ -67,7 +67,7 @@ Collaboration across Research and Development teams is necessary for achieving o
 You can display the analytics view by:
 
 * Asset Class
-* Application&#x20;
+* Application
 * Owner
 
 By selecting a View by dimension, all exposed widgets will be affected, enabling you to compare data points based on the selected dimension.
@@ -89,8 +89,8 @@ To associate assets with asset class, you can either change the asset class manu
 
 #### Applications and Owner view <a href="#applications-and-owners-view" id="applications-and-owners-view"></a>
 
-You can filter the data from your Application Analytics dashboard based on application or code owner. To proceed, it is necessary to have the appropriate metadata available for the repositories. The metadata can be pulled directly from the Snyk SCM integration. You can find details of how to set this up on the [Backstage catalog in Asset Inventory](../../developer-tools/scm-integrations/application-context-for-scm-integrations/#backstage-file-for-scm-integrations) page. \
-To determine if this metadata is available in your repositories, check the completeness widget for repository metadata. Snyk recommends verifying that all class A assets are properly configured by using the asset class filter from the dashboard.&#x20;
+You can filter the data from your Application Analytics dashboard based on application or code owner. To proceed, it is necessary to have the appropriate metadata available for the repositories. The metadata can be pulled directly from the Snyk SCM integration. You can find details of how to set this up on the [Backstage catalog in Asset Inventory](../../developer-tools/scm-integrations/application-context-for-scm-integrations/#backstage-file-for-scm-integrations) page.\
+To determine if this metadata is available in your repositories, check the completeness widget for repository metadata. Snyk recommends verifying that all class A assets are properly configured by using the asset class filter from the dashboard.
 
 ### Analytics timeframe
 
@@ -118,7 +118,7 @@ The Application Analytics dashboard focuses on three main data categories:
 
 One of the leading missions of an AppSec team is ensuring appropriate scan coverage across the asset inventory. A [covered asset](../../discover-snyk/getting-started/glossary.md#coverage-snyk-essentials) is simply an asset that has been scanned by a certain application security testing (AST) product. Having uncovered assets expose the company to unknown risks, that is why it is essential to verify that business critical assets (based on asset class or strategic applications), are being properly scanned.
 
-In the Coverage section, you have information about the assets coverage.&#x20;
+In the Coverage section, you have information about the assets coverage.
 
 * Coverage overview - provides information, in percentages, about the scanned assets, distributed by the scan category (SAST, SCA, Container, and Secrets).
 * Coverage trend - allows reviewing the coverage trend for the last three (3) months. A growing trend will indicate that a larger portion of your asset inventory was scanned.
@@ -172,7 +172,7 @@ Application Analytics Assets view
 The metadata completeness section provides information on the completeness of metadata from application context sources for your repositories.
 
 * Repo metadata completeness - displays the availability of application context metadata across code repositories. For more information about context metadata, see [Application context for SCM Integrations](../../developer-tools/scm-integrations/application-context-for-scm-integrations/).
-* Repository source distribution - provides information about the repositories distributed by the type of integration (SCM integrations, third-party integrations). When viewing by application or owner, only the top five (5)  applications or owners with the most assets will be displayed.
+* Repository source distribution - provides information about the repositories distributed by the type of integration (SCM integrations, third-party integrations). When viewing by application or owner, only the top five (5) applications or owners with the most assets will be displayed.
 
 The following video presents an overview of the Application Analytics Repository metadata completeness and source distribution view from the Snyk Web UI.
 

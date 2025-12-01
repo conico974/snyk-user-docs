@@ -18,15 +18,14 @@ This installation instruction assumes you have a Node.js local development envir
 
 To install the Snyk MCP Server using the Goose CLI interactive session, proceed with the following instructions:
 
-*   Start an interactive Goose configuration wizard by running the `goose configure` command:\
+*   Start an interactive Goose configuration wizard by running the `goose configure` command:\\
 
-
-    <figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (394) (1).png" alt=""><figcaption></figcaption></figure>
 * From the configuration menu, chose **Add Extension.**
 * Choose **Command-line extension (run a local command or script).**
 * Name this extension **Snyk Security.**
 * Run the command by typing in: `npx -y snyk@latest mcp -t stdio`
-* Continue with the defaults (timeout of 300 seconds), and optionally provide the Snyk API token if your Organization policy requires one.&#x20;
+* Continue with the defaults (timeout of 300 seconds), and optionally provide the Snyk API token if your Organization policy requires one.
 
 A complete Goose configuration walkthrough should look as follows:
 
@@ -45,10 +44,10 @@ Install the Snyk MCP Server using the Goose CLI interactive session by following
 * Select **Command-line extension (run a local command or script).**
 * Name this extension **Snyk Security.**
 * Run the command by typing in: `/path/to/snyk mcp -t stdio` - replacing `/path/to/snyk` with the fully qualified absolute path to your Snyk CLI.
-* Continue with the defaults (timeout of 300 seconds), and optionally provide the Snyk API token if your Organization policy requires one.&#x20;
+* Continue with the defaults (timeout of 300 seconds), and optionally provide the Snyk API token if your Organization policy requires one.
 
 {% hint style="info" %}
-&#x20;If you installed `snyk` using npm as a global module and you are using fnm to manage your versions, then you must specify the full path to the `snyk` executable. The path may look like this: `/Users/username/.local/state/fnm_multishells/8831_1753881185071/bin/snyk`.
+If you installed `snyk` using npm as a global module and you are using fnm to manage your versions, then you must specify the full path to the `snyk` executable. The path may look like this: `/Users/username/.local/state/fnm_multishells/8831_1753881185071/bin/snyk`.
 {% endhint %}
 
 Start or resume your Goose session with the Snyk MCP server enabled.
@@ -57,7 +56,7 @@ Start or resume your Goose session with the Snyk MCP server enabled.
 
 As a one-time setup, you may need to authenticate and trust the Project directory. If required, the agentic workflow will likely manage this automatically.
 
-These workflows are mostly automatically executed by the underlying model and the agentic code assistant, and you will need to approve them using a browser confirmation dialog.&#x20;
+These workflows are mostly automatically executed by the underlying model and the agentic code assistant, and you will need to approve them using a browser confirmation dialog.
 
 You can explicitly prompt to authenticate your account as follows:
 

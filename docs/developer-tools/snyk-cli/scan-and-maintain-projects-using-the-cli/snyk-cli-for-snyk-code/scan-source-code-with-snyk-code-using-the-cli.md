@@ -9,11 +9,11 @@ When testing your repository code via the CLI, you can:
 
 When you test a folder, all its sub-folders and files are also tested. You can test a single file in the current folder, or a single file in another folder by specifying the absolute path to the file.
 
-You can also test files with a relative path reference by prefixing the path with `$PWD`, for example,  `snyk code test $PWD/path/to/file`. This works with bash.
+You can also test files with a relative path reference by prefixing the path with `$PWD`, for example, `snyk code test $PWD/path/to/file`. This works with bash.
 
 To exclude certain directories or files from the Snyk Code CLI test, you can use the following means:
 
-* The  `snyk ignore --file-path` command. See [Excluding directories and files from the Snyk Code test](exclude-directories-and-files-from-snyk-code-cli-tests.md).
+* The `snyk ignore --file-path` command. See [Excluding directories and files from the Snyk Code test](exclude-directories-and-files-from-snyk-code-cli-tests.md).
 * Manually creating a `.snyk` file in the tested folder. See [Excluding directories and files from the import process](../../../../scan-with-snyk/import-project-repository/exclude-directories-and-files-from-project-import.md).
 
 ## Testing a repository from its root folder
@@ -36,7 +36,7 @@ snyk code test
 
 Snyk Code tests the `snyk-goof` repository, and displays the vulnerability issues that were discovered:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - 1 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="Example of Snyk Code CLI test results"><figcaption><p>Example of Snyk Code CLI test results</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - 1 (1).png" alt="Example of Snyk Code CLI test results"><figcaption><p>Example of Snyk Code CLI test results</p></figcaption></figure>
 
 ## Testing a repository from a different location
 
