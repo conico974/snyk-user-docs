@@ -40,17 +40,17 @@ When setting up the GitHub Server App, you can implement only one of the followi
 
 In the Snyk UI navigate to the integrations page and select the **GitHub Server App** tile.
 
-<figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption><p>GitHub Server App tile highlighted in the Snyk UI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (211) (1).png" alt=""><figcaption><p>GitHub Server App tile highlighted in the Snyk UI</p></figcaption></figure>
 
 Clicking on the tile opens a modal that allows you to enter the URL of your GitHub Server. Entering the URL of your GitHub Server instance will redirect you to your GitHub instance, where you will be able to create the app.
 
-<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption><p>Integration model prompting you for your GitHub Server's URL</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (212) (2).png" alt=""><figcaption><p>Integration model prompting you for your GitHub Server's URL</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption><p>Registration of the app on your GitHub instance</p></figcaption></figure>
 
 You are then asked to authorize the app to act on your users' behalf. The app uses this information to check which GitHub organizations you are authorized to install the app in.
 
-<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption><p>User authorization for the app</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (215) (1).png" alt=""><figcaption><p>User authorization for the app</p></figcaption></figure>
 
 When the install screen in GitHub opens, you can select the GitHub organization where you wish to install the app.
 

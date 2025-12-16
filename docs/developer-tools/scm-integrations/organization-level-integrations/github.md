@@ -121,7 +121,7 @@ You can review and adjust the pull request test settings using the Snyk GitHub I
 
 ### GitHub user permissions and actions
 
-In non-brokered GitHub integrations, operations that are triggered through the Snyk Web UI, for example, opening a Fix PR or re-testing a Project, are performed on behalf of the acting user.&#x20;
+In non-brokered GitHub integrations, operations that are triggered through the Snyk Web UI, for example, opening a Fix PR or re-testing a Project, are performed on behalf of the acting user.
 
 Therefore, a user who wants to perform this operation on GitHub through the Snyk UI must connect their GitHub account to Snyk with the required permission scope for the repositories where they want to perform these operations. See [GitHub and GitHub Enterprise permissions requirements](../user-permissions-and-access-scopes.md#github-and-github-enterprise-permissions-requirements) for details.
 
@@ -174,11 +174,11 @@ Users can either be manually specified, and all will be assigned, or automatical
 
 #### **Enable Auto-assign for all Projects in the GitHub integration**
 
-To configure the Auto-assign settings for all the Projects from an imported private repository, go to the Github integration settings using Organization **Settings** **>** **Integrations > Source control > GitHub** and select **Enable pull request assignees**.&#x20;
+To configure the Auto-assign settings for all the Projects from an imported private repository, go to the Github integration settings using Organization **Settings** **>** **Integrations > Source control > GitHub** and select **Enable pull request assignees**.
 
 You can then choose to assign PRs to the last user to change the manifest file or specified contributors.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (53).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (53) (1).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure></div>
 
 {% hint style="info" %}
 For pull request assignees, the option **The last user to change the manifest file** is based on blame data, not Git commits.
@@ -224,7 +224,7 @@ Note that branch protection is active only after a PR has been raised.
 2. Ensure there are no **Status checks found in the last week for this repository.**
 
 {% hint style="info" %}
-A disconnected GitHub integration will still appear as configured in the Integrations menu of the Snyk UI. However, clicking on the integration settings will show that it is not connected. In this case, the "configured" integration can safely be ignored.&#x20;
+A disconnected GitHub integration will still appear as configured in the Integrations menu of the Snyk UI. However, clicking on the integration settings will show that it is not connected. In this case, the "configured" integration can safely be ignored.
 {% endhint %}
 
 ### Migrate to the GitHub Enterprise integration

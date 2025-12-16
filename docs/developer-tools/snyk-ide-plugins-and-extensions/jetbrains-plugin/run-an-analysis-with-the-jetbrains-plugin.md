@@ -38,11 +38,11 @@ By default, all levels are selected. You must select at least one.
 
 Snyk severity icons have the following meaning:
 
-| ![](<../../../.gitbook/assets/image (50) (1).png>) Critical severity | May allow attackers to access sensitive data and run code on your application.                                                               |
-| -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](<../../../.gitbook/assets/image (29) (1).png>) High severity     | May allow attackers to access sensitive data on your application.                                                                            |
-| ![](<../../../.gitbook/assets/image (62) (1).png>) Medium severity   | May allow attackers under some conditions to access sensitive data on your application.                                                      |
-| ![](<../../../.gitbook/assets/image (37) (1).png>) Low severity      | The application may expose some data allowing vulnerability mapping, which can be used with other vulnerabilities to attack the application. |
+| ![](<../../../.gitbook/assets/image (50) (1) (1).png>) Critical severity | May allow attackers to access sensitive data and run code on your application.                                                               |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](<../../../.gitbook/assets/image (29) (1).png>) High severity         | May allow attackers to access sensitive data on your application.                                                                            |
+| ![](<../../../.gitbook/assets/image (62) (1).png>) Medium severity       | May allow attackers under some conditions to access sensitive data on your application.                                                      |
+| ![](<../../../.gitbook/assets/image (37) (1) (1).png>) Low severity      | The application may expose some data allowing vulnerability mapping, which can be used with other vulnerabilities to attack the application. |
 
 ### Filter by issue type
 

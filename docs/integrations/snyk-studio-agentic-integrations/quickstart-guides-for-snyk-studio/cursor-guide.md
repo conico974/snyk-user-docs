@@ -13,7 +13,7 @@ You can access Snyk Studio, including Snyk's MCP server, in Cursor to secure cod
 
 Once installation completes, a modal window will appear prompting an opt-in to Snyk Studio's "Secure at Inception." This will automatically configure the necessary rules to scan any new AI generated code. Additional variations are available within the plugin's Settings page.
 
-<figure><img src="../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choosing yes will activate `Auto Configure Snyk Mcp Server` and set the `Secure at Inception: Execution Frequency` to "On Code Generation." These settings willl handle the configuration of the Snyk MCP and the creation of the snyk\_rules.mdc file within the directory.
 
@@ -22,8 +22,6 @@ Choosing yes will activate `Auto Configure Snyk Mcp Server` and set the `Secure 
 Users who previously installed the VS Code IDE extensions and did not enable Secure at Inception via the modal window can enable them after the fact via the IDE extension settings. Users can also update Secure at Inception settings or disable them by setting the `Execution Frequency` to "Manual."
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Authenticate
 
@@ -61,7 +59,7 @@ Once authenticated, Snyk Studio should be triggered whenever new code is generat
 * Click [this link](cursor://anysphere.cursor-deeplink/mcp/install?name=snyk\&config=eyJjb21tYW5kIjoibnB4IC15IHNueWtAbGF0ZXN0IG1jcCAtdCBzdGRpbyJ9) to directly add the server to Cursor.
 * Confirm installation in the Cursor settings by clicking on `Install`
 
-<figure><img src="../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (362) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Install the Snyk MCP Server in Cursor
 
@@ -71,7 +69,7 @@ Install the Snyk MCP Server using the method that best suits your operating syst
 
 Navigate to the list of MCP servers on the Cursor website and search for Snyk. Then install by clicking the `Add Snyk to Cursor` button.
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (330).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (330) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Confirm the installation by clicking `Install` in the Cursor settings.
 

@@ -71,7 +71,7 @@ Snyk starts scanning the selected repositories for dependency files, such as `pa
 
 The imported Projects appear on your **Projects** page and are continuously checked for vulnerabilities.
 
-<figure><img src="../../../.gitbook/assets/github_integration-fix_15dec2022 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (16).jpeg" alt="Importing selected repositories to Snyk"><figcaption><p>Importing selected repositories to Snyk</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/github_integration-fix_15dec2022 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (16) (1).jpeg" alt="Importing selected repositories to Snyk"><figcaption><p>Importing selected repositories to Snyk</p></figcaption></figure>
 
 ### Uses of the GitHub Enterprise integration
 
@@ -133,7 +133,7 @@ To configure the Auto-assign settings for all the Projects from an imported priv
 
 You can then choose to assign PRs to the last user to change the manifest file or specified contributors.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (53).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (53) (1).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure></div>
 
 {% hint style="info" %}
 For pull request assignees, the option **The last user to change the manifest file** is based on blame data, not Git commits.

@@ -29,8 +29,6 @@ To ensure continued support and functionality, update your Bitbucket Cloud integ
     * **read:workspace:bitbucket**
     * **read:repository:bitbucket**
 
-
-
     See the [Bitbucket documentation ](https://support.atlassian.com/bitbucket-cloud/docs/create-an-api-token/)for more details about the procedure.
 5. Enter the email and the [API key for the Bitbucket account](https://developer.atlassian.com/cloud/bitbucket/rest/intro/#api-tokens) you created, and **save** your changes.\
    You can find your email under the Bitbucket **Personal settings.**\
@@ -61,7 +59,7 @@ Snyk produces advanced [security reports](../../../manage-risk/reporting/legacy-
 
 The example that follows shows a Project-level security report.
 
-<figure><img src="../../../.gitbook/assets/bbc_project-sec-rpt_21sept2022.png" alt="An example of a Project-level security report"><figcaption><p>An example of a Project-level security report</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bbc_project-sec-rpt_21sept2022 (1).png" alt="An example of a Project-level security report"><figcaption><p>An example of a Project-level security report</p></figcaption></figure>
 
 #### Project monitoring and automatic fix Pull Requests
 

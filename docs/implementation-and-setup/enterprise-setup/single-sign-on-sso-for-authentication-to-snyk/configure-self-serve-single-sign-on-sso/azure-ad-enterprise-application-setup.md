@@ -4,7 +4,7 @@ This example shows setting up an Entra ID (formerly Azure AD) Enterprise Applica
 
 1.  From the dropdown at the top left select **GROUP OVERVIEW** and then the cog icon (top right corner) to get to your group settings.
 
-    <figure><img src="../../../../.gitbook/assets/1 (5).png" alt="Select group overview"><figcaption><p>Select group overview</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/1 (5) (1).png" alt="Select group overview"><figcaption><p>Select group overview</p></figcaption></figure>
 2.  Click on **SSO** and copy the values under **Entity ID** and **ACS URL** or leave the browser tab open for easy access.
 
     <figure><img src="../../../../.gitbook/assets/2 (2).png" alt="Group Settings: SSO"><figcaption><p>Group Settings: SSO</p></figcaption></figure>
@@ -25,7 +25,7 @@ This example shows setting up an Entra ID (formerly Azure AD) Enterprise Applica
     <figure><img src="../../../../.gitbook/assets/7 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="Set up single sign-on, Get started"><figcaption><p>Set up single sign-on, Get started</p></figcaption></figure>
 8.  Select **SAML** as the SSO method.
 
-    <figure><img src="../../../../.gitbook/assets/8 (1) (1).png" alt="Select SAML"><figcaption><p>Select SAML</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/8 (1) (1) (1).png" alt="Select SAML"><figcaption><p>Select SAML</p></figcaption></figure>
 9.  Click **Edit** under **Basic SAML configuration**.
 
     <figure><img src="../../../../.gitbook/assets/9 (1) (2).png" alt="Edit basic SAML configuration"><figcaption><p>Edit basic SAML configuration</p></figcaption></figure>
@@ -36,7 +36,7 @@ This example shows setting up an Entra ID (formerly Azure AD) Enterprise Applica
 
     <figure><img src="../../../../.gitbook/assets/11 (1).png" alt="Login URL"><figcaption><p>Login URL</p></figcaption></figure>
 
-    <figure><img src="../../../../.gitbook/assets/1 (3).png" alt="Sign in URL in Snyk portal"><figcaption><p>Sign in URL in Snyk portal</p></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/1 (3) (1).png" alt="Sign in URL in Snyk portal"><figcaption><p>Sign in URL in Snyk portal</p></figcaption></figure>
 12. Return to Entra ID and click **Download** next to **Certificate (Base64)**.
 
     <figure><img src="../../../../.gitbook/assets/13.png" alt="Download SAML Certificate (Base 64)"><figcaption><p>Download SAML Certificate (Base 64)</p></figcaption></figure>

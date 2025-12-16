@@ -1,7 +1,7 @@
 # Troubleshooting for the Eclipse plugin
 
 {% hint style="warning" %}
-Snyk plugins are not supported on any operating system that has reached End Of Life (EOL) with the distributor.&#x20;
+Snyk plugins are not supported on any operating system that has reached End Of Life (EOL) with the distributor.
 {% endhint %}
 
 ## General troubleshooting
@@ -28,20 +28,20 @@ To get the **Snyk Language Server log file**, click on the **Open Log** button i
 
 Notice that **\[Info]** lines contain **INF**, **WRN**, and **DBG** log rows if the SNYK\_LOG\_LEVEL is set to debug.
 
-<figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption><p>Error Log view</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (166) (1).png" alt=""><figcaption><p>Error Log view</p></figcaption></figure>
 
 ## Proxy settings
 
 Ensure that you read the Snyk [Eclipse documentation](./).
 
-### &#x20;Details to address
+### Details to address
 
 * Determine whether the issue occurs on the CLI terminal, outside of the IDE.
 * Preferably, use the latest Snyk CLI version.
 * Use the debug option to obtain the user's `snyk test` and `snyk monitor` output.
 * Set the proxy variable in the command line: s`et http_proxy=<http….>`
 
-### &#x20;Proxy setting confirmation
+### Proxy setting confirmation
 
 In Eclipse, navigate to **Windows > Preferences > General > Network Connections**.
 
@@ -110,4 +110,4 @@ If you want to verify the correct provenance of your plugin, verify the signing 
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt="The signing key details to verify the integrity and origin of the download plugin"><figcaption><p>The signing key details to verify the integrity and origin of the downloaded plugin</p></figcaption></figure>
 
-\
+\\

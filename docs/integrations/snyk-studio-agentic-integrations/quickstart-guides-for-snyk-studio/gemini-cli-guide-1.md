@@ -68,7 +68,7 @@ Authenticate my Snyk account
 
 If you are not authenticated, this prompt opens a browser for you to authenticate to the Snyk Web UI, and then you can continue with the agent.
 
-<figure><img src="../../../.gitbook/assets/image (348).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (348) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Examples
 

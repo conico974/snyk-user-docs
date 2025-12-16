@@ -56,11 +56,11 @@ Scan this directory for code security & dependency vulnerabilities and security 
 
 Amazon Q indicates that this request is related to security vulnerability scanning and calls the Snyk MCP Server for various scans.
 
-<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (344) (1).png" alt=""><figcaption></figcaption></figure>
 
 Amazon Q is then able to gather all the security scanning results, both code (SAST) and dependencies (SCA), and based on recommendations and contextual information provided by the Snyk MCP Server, it is now able to provide code changes that address some or all of the security vulnerabilities that were found:
 
-<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (345) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### "Secure at inception" rules
 

@@ -13,7 +13,7 @@ Access [Snyk Studio](../../../discover-snyk/getting-started/glossary.md#snyk-stu
 
 Once installation completes, a modal will appear prompting you to opt-in to Snyk Studio's "[Secure at Inception](../../../discover-snyk/getting-started/glossary.md#secure-at-inception)." This will automatically configure the necessary rules to scan any new AI generated code. Additional variations are available within the plugin's **Settings** page.
 
-<figure><img src="../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choosing yes will activate `Auto Configure Snyk Mcp Server` and set the `Secure at Inception: Execution Frequency` to "On Code Generation." These settings willl handle the configuration of the Snyk MCP and the creation of the snyk\_rules.mdc file within the directory.
 
@@ -66,7 +66,7 @@ Install Windsurf to your local machine from the [Windsurf website](https://winds
 
 Install the official Snyk MCP Server using the Windsurf MCP Marketplace.
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting up the Snyk MCP Server
 
@@ -88,7 +88,7 @@ Scan this directory for code security & dependency vulnerabilities and security 
 
 Windsurf indicates that this request is related to security vulnerability scanning and calls the Snyk MCP Server for various scans.
 
-<figure><img src="../../../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (394) (1).png" alt=""><figcaption></figcaption></figure>
 
 Windsurf is then able to gather all the security scanning results, both code (SAST) and dependencies (SCA), and based on recommendations and contextual information provided by the Snyk MCP Server, it is now able to provide code changes that address some or all of the security vulnerabilities that were found.
 

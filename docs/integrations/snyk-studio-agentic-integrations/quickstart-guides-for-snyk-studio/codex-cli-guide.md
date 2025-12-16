@@ -63,11 +63,11 @@ You can explicitly prompt to authenticate your account as follows:
 Authenticate my Snyk account
 ```
 
-<figure><img src="../../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (350) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are not authenticated, this prompt opens a browser for you to authenticate to the Snyk Web UI, and then you can continue with the agent.
 
-<figure><img src="../../../.gitbook/assets/image (348).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (348) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Examples
 
@@ -83,7 +83,7 @@ Scan this directory for code security & dependency vulnerabilities and security 
 
 Codex CLI will invoke Snyk scanning, provide output and insights based on the results that Snyk returned:
 
-<figure><img src="../../../.gitbook/assets/image (351).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (351) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### "Secure at inception" rules
 

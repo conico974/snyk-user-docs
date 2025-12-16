@@ -103,7 +103,7 @@ You can set the reachability analysis as the default setting for multiple Organi
 2. Under **Reachability analysis,** click **Enable Reachability** to apply it to new Organizations.
 3. Confirm the selection to save changes.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="Enable reachability at the Group level"><figcaption><p>Enable reachability at the Group level</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="Enable reachability at the Group level"><figcaption><p>Enable reachability at the Group level</p></figcaption></figure>
 
 After reachability analysis is enabled, Snyk performs the analysis as part of scanning Projects.
 
@@ -179,7 +179,7 @@ After you import or test a Project using the Snyk Web UI, Snyk monitors the Proj
 * Reachability badge - Allows you to quickly see on the issue card when a vulnerability is reachable.
 * Call path - Allows you to see the path from your code to the vulnerable code element to validate the result.
 
-<figure><img src="../../.gitbook/assets/image (91) (1).png" alt="Reachability filters, badge and call path on the Projects UI"><figcaption><p>Reachability filters, badge and call path on the Projects UI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91) (1) (1).png" alt="Reachability filters, badge and call path on the Projects UI"><figcaption><p>Reachability filters, badge and call path on the Projects UI</p></figcaption></figure>
 
 For Projects that have been imported through a CLI monitor, the Reachability status is based on the snapshot of code taken at the time of the monitor. Recurring tests update the Project as new vulnerabilities are introduced or existing vulnerabilities change. To ensure Reachability status is up to date, Snyk recommends using the CLI monitor on an ongoing basis.
 

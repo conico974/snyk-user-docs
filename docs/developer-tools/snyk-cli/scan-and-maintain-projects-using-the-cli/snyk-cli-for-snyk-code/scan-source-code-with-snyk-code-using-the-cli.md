@@ -34,7 +34,7 @@ snyk code test
 
 Snyk Code tests the `snyk-goof` repository, and displays the vulnerability issues that were discovered:
 
-<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - 1 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt="Example of Snyk Code CLI test results"><figcaption><p>Example of Snyk Code CLI test results</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snyk Code - CLI - snyk code test - Results - 1 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png" alt="Example of Snyk Code CLI test results"><figcaption><p>Example of Snyk Code CLI test results</p></figcaption></figure>
 
 ## Testing a repository from a different location
 
@@ -61,14 +61,14 @@ snyk code test /Users/username/Documents/Repositories/snyk-goof
 
 {% hint style="info" %}
 Snyk recommends using version v1.1300.0+ or later.\
-The minimum supported CLI version is v1.1297.0.&#x20;
+The minimum supported CLI version is v1.1297.0.
 {% endhint %}
 
-You can publish Snyk Code results to a Snyk Project with or without using an integration.&#x20;
+You can publish Snyk Code results to a Snyk Project with or without using an integration.
 
-You do not need to connect to an SCM integration such as GitHub or GitLab for this to work. It works directly with the results you upload from Snyk CLI.&#x20;
+You do not need to connect to an SCM integration such as GitHub or GitLab for this to work. It works directly with the results you upload from Snyk CLI.
 
-* Sync with Snyk Web UI: After creating a Project from the CLI, you can manage it in the Snyk web interface. If you mark an issue as **Ignored** in the UI, future CLI scans for that Project are not being reported again.&#x20;
+* Sync with Snyk Web UI: After creating a Project from the CLI, you can manage it in the Snyk web interface. If you mark an issue as **Ignored** in the UI, future CLI scans for that Project are not being reported again.
 * If the Project does not exist, Snyk automatically creates a new CLI Project for you with the value provided in the `--project-name` option.
 * If the Project already exists, Snyk adds your latest scan as a new snapshot to that same Project. This allows you to track its security history over time.
 
@@ -118,7 +118,7 @@ snyk code test --help
 
 Snyk uses the `--project-name` or `--target-name` you provided in the command to identify which Project to update.
 
-You do not need to connect to an SCM integration such as GitHub or GitLab for this to work. It works directly with the results you upload from Snyk CLI.&#x20;
+You do not need to connect to an SCM integration such as GitHub or GitLab for this to work. It works directly with the results you upload from Snyk CLI.
 
 * Sync with Snyk Web UI: After creating a Project from the CLI, you can manage it in the Snyk web interface. If you mark an issue as **Ignored** in the UI, it will be suppressed in all future Project scans.
 * If the Project is new, Snyk automatically creates a new CLI Project for you with the value provided in the `--project-name` option.

@@ -64,7 +64,7 @@ By default, only Snyk Org or Group admins can create assignments. Group admins c
 
 3. Click **Create new assignments**.
 
-<figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption><p>Creating new assignments button on the Assignments Dashboard page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (250) (1).png" alt=""><figcaption><p>Creating new assignments button on the Assignments Dashboard page</p></figcaption></figure>
 
 The **New Assignments** page opens, which allows you to create assignments for Snyk Organization users. On the **New Assignments** page:
 

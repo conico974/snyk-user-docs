@@ -79,7 +79,7 @@ The following examples shows a Snyk MCP Server that was successfully configured 
 
 <figure><img src="../../../.gitbook/assets/image (372).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (373).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (373) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 For additional MCP configuration options on Claude Code and troubleshooting, consult the official [Claude Code MCP documentation](https://docs.anthropic.com/en/docs/claude-code/mcp).
 
@@ -87,7 +87,7 @@ For additional MCP configuration options on Claude Code and troubleshooting, con
 
 As a one-time setup, you may need to authenticate and trust the current Project directory.
 
-<figure><img src="../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (374) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Examples
 
@@ -103,11 +103,11 @@ Scan this directory for code security & dependency vulnerabilities and security 
 
 Claude Code indicates that this request is related to security vulnerability scanning and calls the Snyk MCP Server for various scans.
 
-<figure><img src="../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (378) (1).png" alt=""><figcaption></figcaption></figure>
 
 Claude Code is then able to gather all the security scanning results, both code (SAST) and dependencies (SCA), and based on recommendations and contextual information provided by the Snyk MCP Server, it is now able to provide code changes that address some or all of the security vulnerabilities that were found:
 
-<figure><img src="../../../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (380) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### "Secure at inception" rules
 

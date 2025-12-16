@@ -9,7 +9,7 @@ Free and Team plan users and Trial users have access to a Snyk user's token unde
 
 Service accounts are a special type of system user. Creating a service account generates an API token that is the only token associated with the service account and takes the place of standard user credentials. Snyk needs authentication in order to initiate Snyk processes.
 
-You can set up a service account to use for automation rather than using a Snyk user's token and to help manage integrations.&#x20;
+You can set up a service account to use for automation rather than using a Snyk user's token and to help manage integrations.
 
 You can generate single or multiple tokens on the Organization or Group levels to manage your integrations. Each service account has a unique name to make it easier to recognize. This name cannot be reused.
 
@@ -102,7 +102,7 @@ Ensure that you copy this token, as you will not see it again. You can click **C
 
 The new token is also added to your **Existing service accounts** list, like the list in this example:
 
-<figure><img src="../../../.gitbook/assets/uuid-799b88fc-d1d7-72c9-5ceb-30fb2a8d572e-en (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (14).png" alt="Existing service accounts for a Group"><figcaption><p>Existing service accounts for a Group</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/uuid-799b88fc-d1d7-72c9-5ceb-30fb2a8d572e-en (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (14) (1).png" alt="Existing service accounts for a Group"><figcaption><p>Existing service accounts for a Group</p></figcaption></figure>
 
 In addition, if you created the token for the entire Group with a **Group Admin** role, the token also appears in the **Existing service accounts** list for each of its Organizations, though it can only be edited at the **Group** level.
 
@@ -142,7 +142,7 @@ Deleting a service account is the same as revoking the API token.
 * Click on **Settings** > **Service accounts**.
 * Scroll to find the list of existing service accounts:
 
-<figure><img src="../../../.gitbook/assets/uuid-799b88fc-d1d7-72c9-5ceb-30fb2a8d572e-en (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (14).png" alt="Existing service accounts for a Group"><figcaption><p>Existing service accounts for a Group</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/uuid-799b88fc-d1d7-72c9-5ceb-30fb2a8d572e-en (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (14) (1).png" alt="Existing service accounts for a Group"><figcaption><p>Existing service accounts for a Group</p></figcaption></figure>
 
 * From the list of existing tokens:
   * Click the token name to navigate to **change the token name** and click **Save**.

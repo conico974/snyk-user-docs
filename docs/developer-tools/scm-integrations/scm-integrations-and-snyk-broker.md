@@ -114,6 +114,6 @@ When you have these prerequisites, use the following commands
 
 Visit the integrations page in Snyk to see that the integration has been configured.
 
-<figure><img src="../../.gitbook/assets/image (222).png" alt=""><figcaption><p>A successful GitHub Server App integration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (222) (2).png" alt=""><figcaption><p>A successful GitHub Server App integration</p></figcaption></figure>
 
 See the [Universal Broker](../../enterprise-setup/snyk-broker/universal-broker/) documentation for more details.

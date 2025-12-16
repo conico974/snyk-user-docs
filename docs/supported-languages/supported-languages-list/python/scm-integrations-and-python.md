@@ -127,4 +127,4 @@ Pipenv dev dependencies are not included in scans by default. To change this, mo
 3. Select **Edit settings** for **Python**.
 4. Enable or disable the **Scan Pipenv dev dependencies** option under the **Pipenv** settings.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="Pipenv dev dependency settings"><figcaption><p>Pipenv dev dependency settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="Pipenv dev dependency settings"><figcaption><p>Pipenv dev dependency settings</p></figcaption></figure>

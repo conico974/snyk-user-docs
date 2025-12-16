@@ -49,7 +49,7 @@ An issue ignored in an Open Source or Code Project in the Snyk web UI will be re
 
 When you ignore an issue in the Snyk Web UI, the issue shows who ignored it and allows you to edit the ignore or unignore the issue.
 
-<figure><img src="../../../.gitbook/assets/image (186).png" alt="Ignore set in the Snyk Web UI"><figcaption><p>Ignore set in the Snyk Web UI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (186) (1).png" alt="Ignore set in the Snyk Web UI"><figcaption><p>Ignore set in the Snyk Web UI</p></figcaption></figure>
 
 For more information, see the training: [Ignoring issues](https://learn.snyk.io/lesson/ignoring-issues/).
 
@@ -86,7 +86,7 @@ Refer to the following example. Issues are identified as **CI/CLI**, meaning the
 
 The following shows `snyk test` results before an ignore is set in the Web UI:
 
-<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt="Snyk test results before ignoring in the Web UI"><figcaption><p>Snyk test results before ignoring in the Web UI</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1) (1).png" alt="Snyk test results before ignoring in the Web UI"><figcaption><p>Snyk test results before ignoring in the Web UI</p></figcaption></figure>
 
 The following shows `snyk test` results after an ignore is set in the Web UI:
 

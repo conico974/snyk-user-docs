@@ -484,7 +484,7 @@ The report allows you to track:
 
 The first section of the report focuses on showing key engagement statistics and the progress of any assignments. Tool tips provide more details on the definitions of the metrics.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-29 at 19.30.57 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-29 at 19.30.57 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Adoption rankings
 
@@ -494,7 +494,7 @@ The adoption ranking section shows your organization and individual user engagem
 The user level adoption ranking is a great way to identify potential security champions who are proactively engaging in security education and training.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-29 at 19.34.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-09-29 at 19.34.12 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Learning breakdown
 

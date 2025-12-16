@@ -51,7 +51,7 @@ Devin is then able to gather all the security scanning results, both code (SAST)
 
 <figure><img src="../../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (388) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### "Secure at inception" rules
 

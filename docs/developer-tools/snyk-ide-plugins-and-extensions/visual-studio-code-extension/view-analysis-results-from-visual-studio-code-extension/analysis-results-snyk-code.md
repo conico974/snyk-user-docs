@@ -8,7 +8,7 @@ Effective beginning on June 24, 2025, Snyk Code Quality issues will no longer be
 
 ## Snyk Code vulnerability window
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-03-17 at 12.25.28.png" alt="Snuk Code vulnerability window"><figcaption><p>Snyk Code vulnerability window</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-03-17 at 12.25.28 (1).png" alt="Snuk Code vulnerability window"><figcaption><p>Snyk Code vulnerability window</p></figcaption></figure>
 
 The Snyk suggestion panel on the right of the results screen shows the Snyk Code Vulnerability name, the line it was found in, a suggestion for a fix, and an option to ignore, either in the entire file or a specific line.
 
@@ -26,9 +26,8 @@ The vulnerabilities are visible within the editor, with the detailed information
 
 Choose **Quick Fix** to open the details panel for an issue using Code Action.
 
-You can also choose to ignore a suggestion, either a particular one or a recurring one in the current file,  using **Quick Fix**.
+You can also choose to ignore a suggestion, either a particular one or a recurring one in the current file, using **Quick Fix**.
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2023-03-17 at 16.34.21.png" alt="Quick Fix menu"><figcaption><p>Quick Fix menu</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2023-03-17 at 12.32.22.png" alt="Ignore options with issue detail"><figcaption><p>Ignore options with issue detail</p></figcaption></figure>
-

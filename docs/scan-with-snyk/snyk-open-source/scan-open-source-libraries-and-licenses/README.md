@@ -1,6 +1,6 @@
 # Scan open-source libraries and licenses
 
-You can scan your open-source libraries using Snyk Open Source:&#x20;
+You can scan your open-source libraries using Snyk Open Source:
 
 * In the Snyk Web UI
 * With your [IDE](../../../developer-tools/snyk-ide-plugins-and-extensions/)
@@ -14,7 +14,7 @@ You can view vulnerability results for imported Projects. The **Projects** page 
 
 You can expand a **Target** to see vulnerability information for Projects, including the number of issues found, grouped by severity level:
 
-Click a Project to open the issues page for that Project, where, for supported environments,  you can see the dependency cards, showing all of your dependencies, the versions where each associated issue was introduced, how to fix them, and more details about the individual vulnerabilities.
+Click a Project to open the issues page for that Project, where, for supported environments, you can see the dependency cards, showing all of your dependencies, the versions where each associated issue was introduced, how to fix them, and more details about the individual vulnerabilities.
 
 For unsupported environments, you can see a list of individual vulnerabilities. For more details, see [View Project information](../../../snyk-platform-administration/snyk-projects/project-information.md).
 
@@ -35,6 +35,6 @@ To fix vulnerabilities:
 5. Snyk acts on the PR and displays a results screen.
 6. Optionally, select the **Files changed** tab to see details of the changes made.
 
-<figure><img src="../../../.gitbook/assets/screenshot_2021-04-09_at_17.46.22.png" alt=".Files changed tab in GitHub after triggering Fix PR for an open source project"><figcaption><p>Files changed tab in GitHub after triggering Fix PR for an open source project</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/screenshot_2021-04-09_at_17.46.22 (1).png" alt=".Files changed tab in GitHub after triggering Fix PR for an open source project"><figcaption><p>Files changed tab in GitHub after triggering Fix PR for an open source project</p></figcaption></figure>
 
 For more details, see [Fix your vulnerabilities](../manage-vulnerabilities/fix-your-vulnerabilities.md).

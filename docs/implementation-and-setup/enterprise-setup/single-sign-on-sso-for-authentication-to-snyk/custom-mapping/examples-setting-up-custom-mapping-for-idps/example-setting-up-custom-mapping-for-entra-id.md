@@ -21,7 +21,7 @@ The **steps** in **configuring App role**s follow.
     <figure><img src="../../../../../.gitbook/assets/image (113).png" alt="App registration, select name of Enterprise Application"><figcaption><p>App registration, select name of Enterprise Application</p></figcaption></figure>
 2.  Select **App roles**, then **Create app role**.
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (2) (1).png" alt="Select App roles, Create app role"><figcaption><p>Select App roles, Create app role</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (2) (1) (1).png" alt="Select App roles, Create app role"><figcaption><p>Select App roles, Create app role</p></figcaption></figure>
 3.  Create an app role with details as needed.\
     Select the **Allowed member types**: **Users/Groups**, **Applications**, or **Both**.\
     Enter the **Value** and **Description** for the selected type.\
@@ -38,7 +38,7 @@ The **steps** in **configuring App role**s follow.
     <figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt="Select Users and groups, Add user/group"><figcaption><p>Select Users and groups, Add user/group</p></figcaption></figure>
 6.  Select **Users and groups**; from the dropdown, select a role and select **Assign**.\\
 
-    <figure><img src="../../../../../.gitbook/assets/image (158).png" alt="Add assignment"><figcaption><p>Add assignment</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (158) (1).png" alt="Add assignment"><figcaption><p>Add assignment</p></figcaption></figure>
 7.  Repeat for all required groups and roles that should be assigned. Then verify that the list looks similar to this.\\
 
     Note that it is also possible to add multiple Snyk roles to one App role, as the payload can be interpreted as a comma-separated string. However, this can not be used in conjunction with multiple App roles, as only one syntax will be respected (string or array).
@@ -54,7 +54,7 @@ The **steps** in **configuring App role**s follow.
     **Source attribute**: user.assignedroles
 
 {% hint style="warning" %}
-Ensure you add the claim correctly. If you do not add it or you do it incorrectly, for example, by adding a typo, it can lead to a full mapping failure, which can lock users out of their accounts.&#x20;
+Ensure you add the claim correctly. If you do not add it or you do it incorrectly, for example, by adding a typo, it can lead to a full mapping failure, which can lock users out of their accounts.
 {% endhint %}
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2023-03-10 at 2.55.05 PM.png" alt="Custom claim"><figcaption><p>Custom claim</p></figcaption></figure>

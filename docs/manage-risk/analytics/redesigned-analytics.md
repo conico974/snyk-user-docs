@@ -13,7 +13,7 @@ Learn how to build custom dashboards, access enhanced metrics, and explore Tenan
 * Report catalog: A centralized catalog of Snyk Group-level reports. Use this to discover and access pre-built reports relevant to specific Groups within your Organization.
 * Issues/Assets drill-down: Enhanced drill-down capabilities allow you to explore issues and assets in greater detail directly from the dashboard.
 
-<figure><img src="../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (316) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## User access permissions
 
@@ -21,7 +21,7 @@ Data access at the Tenant level is governed by your existing Group-level permiss
 
 * Any Group member with reporting permissions can now see their Groups on the Tenant-level analytics page.
 * Access is restricted to those Groups the user has permissions for, based on their Group-level permissions (in both predefined and custom roles).
-*   Users who previously had Group reporting permissions but no direct access to Tenant-level analytics  can now access  Tenant-level analytics for the first time. For example, users missing a feature flag or without Tenant-level roles such as Tenant Admin or Tenant Viewer.
+*   Users who previously had Group reporting permissions but no direct access to Tenant-level analytics can now access Tenant-level analytics for the first time. For example, users missing a feature flag or without Tenant-level roles such as Tenant Admin or Tenant Viewer.
 
     Users with Group reporting permissions, who couldn't previously access Tenant-level analytics, will now be able to view Tenant analytics.
 

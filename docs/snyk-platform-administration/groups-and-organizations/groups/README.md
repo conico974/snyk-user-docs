@@ -45,13 +45,13 @@ Select [**Issues**](../../../manage-risk/prioritize-issues-for-fixing/) to bette
 
 Select [**Dependencies**](../../../manage-risk/reporting/dependencies-and-licenses/) to view the dependencies and license issues for your Groups:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/dependencies (1).png" alt=""><figcaption><p>View Group dependencies</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/dependencies (1) (1).png" alt=""><figcaption><p>View Group dependencies</p></figcaption></figure></div>
 
 ### Group Policies
 
 Select [**Policies**](../../../manage-risk/policies/) to view the license and security policies or the assets policies for your Group.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Policies menu with focus on Assets tab</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Policies menu with focus on Assets tab</p></figcaption></figure>
 
 ### Group integrations
 
