@@ -392,7 +392,7 @@ The poll results return a message per manifest processed, either `success: true`
 
 ### [Update existing integration](../reference/integrations-v1.md#org-orgid-integrations-integrationid)
 
-**More information:** [Obtain the required tokens for setup](../../enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md);\
+**More information:** [Obtain the required tokens for setup](../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md);\
 [Scenario: For a specific event or time, disable all interactions (pull requests, tests) from Snyk to the code base (source control management](scenarios-for-using-the-snyk-api.md#for-a-specific-event-or-time-disable-all-interactions-pull-requests-tests-from-snyk-to-the-code-base); [Examples for the Update existing integration endpoint](examples-for-the-update-existing-integration-endpoint.md)
 
 ### [Update](../reference/integrations-v1.md#org-orgid-integrations-integrationid-settings)
@@ -402,7 +402,7 @@ The poll results return a message per manifest processed, either `success: true`
 ### [Clone an integration (with settings and credentials)](../reference/integrations-v1.md#org-orgid-integrations-integrationid-clone)
 
 **More information:** [Prepare Snyk Broker for deployment](../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/);\
-[Obtain the required tokens for setup](../../enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md);\
+[Obtain the required tokens for setup](../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md);\
 Scenario: [Create multiple new Organizations that all have the same settings in a given Group](scenarios-for-using-the-snyk-api.md#create-multiple-new-organizations-that-all-have-the-same-settings-in-a-given-group)
 
 ### [Delete credentials](../reference/integrations-v1.md#org-orgid-integrations-integrationid-authentication)
@@ -411,7 +411,7 @@ Scenario: [Create multiple new Organizations that all have the same settings in 
 
 ### [Provision new broker token](../reference/integrations-v1.md#org-orgid-integrations-integrationid-authentication-provision-token)
 
-**More information:** [Obtain the required tokens for setup](../../enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md)
+**More information:** [Obtain the required tokens for setup](../../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/prepare-snyk-broker-for-deployment/obtain-the-tokens-required-to-set-up-snyk-broker.md)
 
 ## Invites
 
@@ -430,7 +430,7 @@ See also [Invite users](../reference/organizations-v1.md#org-orgid-invite).
 **More information:** [Dart and Flutter](../../supported-languages/supported-languages-list/dart-and-flutter.md);\
 [Rust](../../supported-languages/supported-languages-list/rust.md):\
 [Guidance for Snyk for C++ page, Alternate testing options section](../../supported-languages/supported-languages-list/c-c++/guidance-for-snyk-for-c-c++.md#alternate-testing-options);\
-[Guidance for Java and Kotlin](../../supported-languages-package-managers-and-frameworks/java-and-kotlin/);\
+[Guidance for Java and Kotlin](../../supported-languages/supported-languages-list/java-and-kotlin/);\
 [Guidance for JavaScript and Node.js, Unmanaged JavaScript section](../../supported-languages/supported-languages-list/javascript/best-practices-for-javascript-and-node.js.md#unmanaged-javascript);\
 [List issues for a package page](../using-specific-snyk-apis/issues-list-issues-for-a-package.md)
 
@@ -583,7 +583,7 @@ More information: [Project type responses from the API](project-type-responses-f
 
 ### [Add a tag to a project](../reference/projects-v1.md#org-orgid-project-projectid-tags)
 
-**More information:** [Project tags](../../snyk-platform-administration/snyk-projects/project-tags.md); [Set up Insights: Associating Snyk Open Source, Code, and Container Projects](broken-reference);\
+**More information:** [Project tags](../../snyk-platform-administration/snyk-projects/project-tags.md); [Set up Insights: Associating Snyk Open Source, Code, and Container Projects](broken-reference/);\
 [Scenario: Rotate or change your Broker token for any reason](scenarios-for-using-the-snyk-api.md#rotate-or-change-your-broker-token-for-any-reason)
 
 ### [Remove a tag from a project](../reference/projects-v1.md#org-orgid-project-projectid-tags-remove)
@@ -841,7 +841,7 @@ This endpoint deletes the specified Targets and also deletes all the Projects in
 
 ## Test (v1)
 
-**More information:** [Guidance for Java and Kotlin](../../supported-languages-package-managers-and-frameworks/java-and-kotlin/);\
+**More information:** [Guidance for Java and Kotlin](../../supported-languages/supported-languages-list/java-and-kotlin/);\
 [Start scanning](../../scan-with-snyk/start-scanning.md);\
 [Scan open-source libraries and licenses](../../scan-with-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/)
 
@@ -869,7 +869,7 @@ This endpoint deletes the specified Targets and also deletes all the Projects in
 
 ### [Test for issues in a public package by group id, artifact id and version](../reference/test-v1.md#test-maven-groupid-artifactid-version) (Maven)
 
-**More information:** [Guidance for Java and Kotlin](../../supported-languages-package-managers-and-frameworks/java-and-kotlin/)
+**More information:** [Guidance for Java and Kotlin](../../supported-languages/supported-languages-list/java-and-kotlin/)
 
 ### [Test gradle file](../reference/test-v1.md#test-gradle)
 

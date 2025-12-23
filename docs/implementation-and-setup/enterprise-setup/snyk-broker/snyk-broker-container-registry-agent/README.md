@@ -97,7 +97,7 @@ docker run --restart=always \
 
 ### Universal Broker
 
-Deploy the Universal Broker by following the installation instructions available on the [Universal Broker ](../../../../enterprise-setup/snyk-broker/universal-broker/)page. The `snyk-broker-config` CLI tool guides you through the process of submitting and storing all configuration details needed to connect the Broker Client to the Container Registry Agent and the Container Registry.
+Deploy the Universal Broker by following the installation instructions available on the [Universal Broker ](../universal-broker/)page. The `snyk-broker-config` CLI tool guides you through the process of submitting and storing all configuration details needed to connect the Broker Client to the Container Registry Agent and the Container Registry.
 
 You must provide the following details while creating your connection:
 
