@@ -2,6 +2,8 @@
 
 Enterprise configuration focuses on helping understand, plan, and roll out your Enterprise Snyk solution. This includes:
 
+qsd
+
 * [Auto-provisioning guide](auto-provisioning-guide.md)
 * [Authenticate for third-party tools](authentication-for-third-party-tools.md)
 * [Set up SSO](single-sign-on-sso-for-authentication-to-snyk/)

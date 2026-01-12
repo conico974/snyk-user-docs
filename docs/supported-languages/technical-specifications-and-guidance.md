@@ -4,6 +4,8 @@
 
 Both Snyk Code and Snyk Open Source accept source code files in UTF-8 encoding. Consider converting source files to this encoding type before importing them into Snyk.
 
+qsd
+
 ## Snyk Open Source
 
 Snyk analyzes and builds the dependencies tree depending on the language and package manager for the Project, as well as the location of the Project.
@@ -41,7 +43,7 @@ Snyk Code automatically excludes the following files from analysis:
 
 The analysis is available only for files with names shorter than or equal to 255 characters. If the filename exceeds this limit, you receive an error. To ensure that all files are being analyzed, Snyk recommends shortening long filenames.
 
-### Framework support&#x20;
+### Framework support
 
 To support a specific framework, Snyk Code must both support the relevant language and be trained on Projects using the framework. The found patterns are then annotated by the security team and extended by curated content.
 
@@ -79,7 +81,7 @@ For more information, see [Snyk Code AI Engine](../scan-with-snyk/snyk-code/#ai-
 
 ## Language support and CLI, CI/CD, and SCM integrations
 
-Snyk supports a variety of programming languages, enabling seamless integration into your development workflow through CLI commands, CI/CD pipelines, and SCM integrations.&#x20;
+Snyk supports a variety of programming languages, enabling seamless integration into your development workflow through CLI commands, CI/CD pipelines, and SCM integrations.
 
 You can use these tools to automatically check your code for security issues as you develop your software. This ensures that strong security practices are part of your development process.
 

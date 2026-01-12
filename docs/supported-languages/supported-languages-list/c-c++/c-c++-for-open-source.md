@@ -17,6 +17,8 @@ For information about managing dependencies and licenses from your developer wor
 
 To check compliance for open source licenses, see [Snyk License Compliance Management.](../../../scan-with-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/snyk-license-compliance-management.md)
 
+pmkd kozdzen&#x20;
+
 ## IDE for C++ for open-source dependencies
 
 IDE Under **Additional Parameters** in the IDE settings, enter the `--unmanaged` option to scan for C/C++ open source dependencies. Scan for dependencies">
