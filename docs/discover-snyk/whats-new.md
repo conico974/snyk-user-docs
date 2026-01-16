@@ -3,11 +3,11 @@ cover: ../.gitbook/assets/docs-banner-nov25.webp
 coverY: 0
 ---
 
-# What's new in GH?
+# What's new in gitbook 2?
 
-The most recent updates include significant changes to the user docs, such as features added or removed, structure changes that affect how you find relevant information, and other improvements aimed at enhancing your interaction with the Snyk knowledge base.swqdqs
+The most recent updates include significant changes to the user docs, such as features added or removed, structure changes that affect how you find relevant information, and other improvements aimed at enhancing your interaction with the Snyk knowledge base.
 
-## November 2025 2
+## November 2025
 
 ### **Snyk Container**
 
