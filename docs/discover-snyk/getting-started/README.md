@@ -6,7 +6,7 @@
 Ensure you use languages, package managers, and frameworks supported by Snyk. See [Supported languages, package managers, and frameworks](../../supported-languages/supported-languages-package-managers-and-frameworks.md).
 {% endhint %}
 
-## Supported browsers
+## Supported browsers github
 
 {% hint style="info" %}
 Snyk does not support Microsoft Internet Explorer.
