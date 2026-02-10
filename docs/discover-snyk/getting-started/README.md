@@ -1,18 +1,20 @@
+---
+description: a
+---
+
 # Getting started
-
-
 
 {% hint style="info" %}
 Ensure you use languages, package managers, and frameworks supported by Snyk. See [Supported languages, package managers, and frameworks](../../supported-languages/supported-languages-package-managers-and-frameworks.md).
 {% endhint %}
 
-## Supported browsers github
+## Supported browsers
 
 {% hint style="info" %}
 Snyk does not support Microsoft Internet Explorer.
 {% endhint %}
 
-Snyk supports the latest versions of the following web browsers:&#x20;
+Snyk supports the latest versions of the following web browsers:
 
 * [Chrome](https://www.google.com/chrome/)
 * [Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
@@ -20,14 +22,14 @@ Snyk supports the latest versions of the following web browsers:&#x20;
 * [Safari](https://www.apple.com/safari/) (except for [Opening Fix PR](../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/))
 
 {% hint style="info" %}
-Snyk requires Javascript to be enabled on your browser.
+Snyk requires JavaScript to be enabled in your browser.
 {% endhint %}
 
 To start performing basic tasks in the Snyk application:
 
 ## Create or log in to a Snyk account
 
-To create a free account or sign up for a pricing plan, navigate to [snyk.io](https://snyk.io/). For details, see [Snyk Pricing Plans](../../implementation-and-setup/enterprise-implementation-guide/trial-limitations.md).&#x20;
+To create a free account or sign up for a pricing plan, navigate to [snyk.io](https://snyk.io/). For details, see [Snyk Pricing Plans](../../implementation-and-setup/enterprise-implementation-guide/trial-limitations.md).
 
 If your company has an existing Snyk account and uses single sign-on (SSO), use the SSO link provided by your administrators.
 
@@ -37,11 +39,11 @@ If your company requires an invitation to use Snyk, when you log in for the firs
 If you log in with a different authentication provider from the one your company uses for the Snyk account, you create a new account. You will not be logged in to the correct Organization for your company.
 {% endhint %}
 
-When you log in to the Snyk Web UI, Snyk shows your preferred (default) Organization. Snyk also uses the settings for your preferred Organization when you test a Project locally using the CLI.&#x20;
+When you log in to the Snyk Web UI, Snyk shows your preferred (default) Organization. Snyk also uses the settings for your preferred Organization when you test a Project locally using the CLI.
 
 ## Set up a Snyk integration
 
-For Snyk to know where to scan, you must provide it with access to your environment. The type of integration you need depends on what systems you use, what you want to scan, and where you want to add the integrations - [Organization](../../integrations/integrate-with-snyk.md) or [Group](../../integrations/integrate-with-snyk.md). For information about available integrators, see [Snyk SCM integrations](../../developer-tools/scm-integrations/organization-level-integrations/) and [Integrate with Snyk](../../integrations/integrate-with-snyk.md).
+For Snyk to know where to scan, you must provide it with access to your environment. The type of integration you need depends on what systems you use, what you want to scan, and where you want to add the integrations - [Organization](../../integrations/integrate-with-snyk.md) or [Group](../../integrations/integrate-with-snyk.md). For information about available integrations, see [Snyk SCM integrations](../../developer-tools/scm-integrations/organization-level-integrations/) and [Integrate with Snyk](../../integrations/integrate-with-snyk.md).
 
 To scan your code, you must first integrate Snyk with the repository holding that code.
 
@@ -71,7 +73,7 @@ Free and Team plan and trial users have access only to this personal token under
 
 To obtain your personal Snyk API token:
 
-1. Log in to Snyk and navigate to your personal account settings.&#x20;
+1. Log in to Snyk and navigate to your personal account settings.
 2. In your **General** settings, under API Token, select **click to show**.
 3. Highlight and copy your API key.
 
@@ -90,19 +92,19 @@ Importing a Project also does the following:
 * Sets Snyk to run a regular scan on that Project for issues. See [Usage settings](../../snyk-platform-administration/groups-and-organizations/usage-settings.md).
 * Initiates some automation, especially default Snyk tests on pull and merge requests, which help prevent vulnerabilities from being added to the Project. This automation fails builds according to your conditions and can be disabled or customized in your [integration settings](../../developer-tools/scm-integrations/organization-level-integrations/).
 
-## Set up Snyk Essentials&#x20;
+## Set up Snyk Essentials
 
 {% hint style="info" %}
 Snyk Essentials is available only with Enterprise plans. For more information, see [plans and pricing](https://snyk.io/plans/).
 {% endhint %}
 
-Snyk Essentials enables Application Security teams to implement, manage, and scale a modern, high-performing, developer security program. It covers use cases under Application Security Posture Management (ASPM).&#x20;
+Snyk Essentials enables Application Security teams to implement, manage, and scale a modern, high-performing, developer security program. It covers use cases under Application Security Posture Management (ASPM).
 
 For more information, see [Snyk Essentials](../../scan-with-snyk/snyk-essentials.md).
 
 ## Review results and fix your issues
 
-After you have imported a Project, and Snyk has scanned that Project for issues, you can view the results of your scan and take action to fix issues.  You can see the number of issues found, grouped by severity level (**C**ritical, **H**igh, **M**edium or **L**ow). For details, see [Severity levels](../../manage-risk/prioritize-issues-for-fixing/severity-levels.md).
+After you have imported a Project, and Snyk has scanned that Project for issues, you can view the results of your scan and take action to fix issues. You can see the number of issues found, grouped by severity level (**C**ritical, **H**igh, **M**edium or **L**ow). For details, see [Severity levels](../../manage-risk/prioritize-issues-for-fixing/severity-levels.md).
 
 The scan results and available actions depend on the type of Project you scan:
 

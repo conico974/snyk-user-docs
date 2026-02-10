@@ -1,9 +1,10 @@
 ---
+description: a
 cover: ../.gitbook/assets/docs-banner-nov25.webp
 coverY: 0
 ---
 
-# What's new in gitbook 2?
+# What's new in GitBook 2?
 
 The most recent updates include significant changes to the user docs, such as features added or removed, structure changes that affect how you find relevant information, and other improvements aimed at enhancing your interaction with the Snyk knowledge base.
 
@@ -11,7 +12,7 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ### **Snyk Container**
 
-* The list of [operated distribution systems supported by Snyk Container](../scan-with-snyk/snyk-container/how-snyk-container-works/operating-system-distributions-supported-by-snyk-container.md) has been updated with support for Chisel.
+* The list of [operating system distributions supported by Snyk Container](../scan-with-snyk/snyk-container/how-snyk-container-works/operating-system-distributions-supported-by-snyk-container.md) has been updated with support for Chisel.
 
 ### **Snyk CLI**
 
@@ -28,7 +29,7 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ### **Other updates**
 
-* [Reachabilty analysis](../manage-risk/prioritize-issues-for-fixing/reachability-analysis.md) has been updated with instructions on how it works and how to use it in both the Snyk Web UI and the Snyk CLI and clear support for specific languages and package managers.
+* [Reachability analysis](../manage-risk/prioritize-issues-for-fixing/reachability-analysis.md) has been updated with instructions on how it works and how to use it in both the Snyk Web UI and the Snyk CLI and clear support for specific languages and package managers.
 * The [Pre-defined roles](../snyk-platform-administration/user-roles/pre-defined-roles.md#role-types) documentation has been updated to communicate that the Organization Admin role and associated permissions supersede any Group Member role restrictions.
 * The [severity condition](../manage-risk/policies/security-policies/security-policies-conditions.md) is now available in Group-level policies. Use this feature to create more granular policies for Snyk Code and Snyk Open Source findings, for example, ignoring a finding or changing its severity.
 
@@ -288,7 +289,7 @@ Information has been added about Snyk support for the Model Context Protocol (MC
 
 ### **Other updates**
 
-* The [PCI-DSS v4.0.1 report](../manage-risk/reporting/available-snyk-reports.md#pci-dss-v4.0.1-report) is now available in Early Access. This report leverages Snyk scan results to assess, prove, and improve readiness for PCI-DSS AppSec compliance regarding SCA and SAST vulnerabilities.
+* The PCI-DSS v4.0.1 report is now available in Early Access. This report leverages Snyk scan results to assess, prove, and improve readiness for PCI-DSS AppSec compliance regarding SCA and SAST vulnerabilities.
 * The [Repositories Tested in CI/CD report](../manage-risk/reporting/available-snyk-reports.md#repositories-tested-in-ci-cd-report) is available in Early Access. This report tracks Snyk CI/CD testing to prevent vulnerable production deployments.
 * [Severity levels](../manage-risk/prioritize-issues-for-fixing/severity-levels.md#why-are-there-multiple-cvss-scores-for-the-same-vulnerability) now provide more details about the CVSS v4.0.
 

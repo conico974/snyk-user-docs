@@ -1,7 +1,7 @@
 ---
 description: >-
   This page explains how to claim CPE credits when completing Snyk Learn lessons
-  and learning paths.
+  and learning paths.a
 ---
 
 # Claiming CPE Credits with Snyk Learn

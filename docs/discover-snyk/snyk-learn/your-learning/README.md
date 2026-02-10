@@ -1,3 +1,7 @@
+---
+description: a
+---
+
 # Your learning
 
 ## Finding learning opportunities
@@ -10,11 +14,11 @@ Issue details in the Snyk Web UI, in IDE integrations, and in pull requests, may
 
 When you are logged in to Snyk Learn, you can also filter by status to see learning that is in progress or already complete.
 
-You can specify categories of learning on your profile to improve learning recommendations.&#x20;
+You can specify categories of learning on your profile to improve learning recommendations.
 
-## Your profile&#x20;
+## Your profile
 
-In your profile, you can set your learning preferences, including the preferred language.&#x20;
+In your profile, you can set your learning preferences, including the preferred language.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-11-26 at 11.23.36.png" alt=""><figcaption><p>Snyk Learn My Profile</p></figcaption></figure>
 
@@ -38,4 +42,4 @@ Some Snyk Learn lessons include a quiz at the end to test your knowledge. You mu
 
 ## Certificates of completion
 
-For all Snyk Learn security learning paths, you will be awarded a Certificate of Completion upon completion. The certificate recognizes your time and effort to improve your security skills and knowledge. You can download a PDF of the certificate from the Learning Path page.&#x20;
+For all Snyk Learn security learning paths, you will be awarded a Certificate of Completion upon completion. The certificate recognizes your time and effort to improve your security skills and knowledge. You can download a PDF of the certificate from the Learning Path page.
