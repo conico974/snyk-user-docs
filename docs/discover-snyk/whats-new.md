@@ -1,5 +1,4 @@
 ---
-description: a
 cover: ../.gitbook/assets/docs-banner-nov25.webp
 coverY: 0
 ---
