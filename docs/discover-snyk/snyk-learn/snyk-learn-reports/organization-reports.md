@@ -1,7 +1,3 @@
----
-description: a
----
-
 # Organization reports
 
 {% hint style="info" %}
