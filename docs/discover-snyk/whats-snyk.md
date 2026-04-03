@@ -14,7 +14,7 @@ To manage and govern the security program, Snyk gives security teams immediate v
 * Snyk Essentials: see [Snyk Essentials](../scan-with-snyk/snyk-essentials.md)
 * Snyk API & Web: see [Snyk API & Web](https://snyk.io/product/dast-api-web/).
 
-## The Snyk developer-first approach
+## The Snyk developer-first approach 1
 
 Snyk provides visibility in a developer’s workflow and actionable insights. The benefit is engaging developers in security practices as part of their development work. Thus, the focus is on building a secure application rather than overhead-intensive work, such as putting in hard QA gates.
 
