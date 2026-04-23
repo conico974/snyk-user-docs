@@ -1,4 +1,8 @@
-# Reference
+---
+description: Here you can download our API specifications
+---
+
+# API Reference
 
 V1 API OpenAPI specification
 
@@ -7,8 +11,6 @@ v1 API OpenAPI specification
 {% endfile %}
 
 REST OpenAPI specification
-
-
 
 {% file src="../../.gitbook/assets/rest-spec.json" %}
 REST OpenAPI specification

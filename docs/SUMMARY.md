@@ -929,7 +929,7 @@
   * [Revoke and regenerate a Snyk API token](snyk-api/authentication-for-api/revoke-and-regenerate-a-snyk-api-token.md)
 * [Changelog](snyk-api/changelog.md)
 * [OAuth2 API](snyk-api/oauth2-api.md)
-* [Reference](snyk-api/reference/README.md)
+* [API Reference](snyk-api/reference/README.md)
   * [AccessRequests](snyk-api/reference/accessrequests.md)
   * [AIBOM](snyk-api/reference/aibom.md)
   * [Apps](snyk-api/reference/apps.md)
@@ -1126,3 +1126,7 @@
 * [What counts as a test?](snyk-data-and-governance/what-counts-as-a-test.md)
 * [Snyk Platform Access credits](snyk-data-and-governance/snyk-platform-access-credits.md)
 * [Snyk for Government (US)](snyk-data-and-governance/snyk-for-government-us.md)
+
+***
+
+* [Imported document](imported-document.md)
